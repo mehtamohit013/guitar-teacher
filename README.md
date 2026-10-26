@@ -3,6 +3,7 @@
 An Android application made to make your guitar journey easier. Currently in active development and supports:
 
 - Acoustic Guitar Standard Tuning
+- Standalone metronome with tempo/meter controls, optional count-in and background media controls
 
 Direct download: [Releases](https://github.com/mehtamohit013/guitar-teacher/releases)
 
@@ -25,7 +26,10 @@ Requires Android 9 or newer on ARM64 or x86-64 Android. 32-bit ARM devices are n
 | `arm64-v8a.apk` | ARM64 Android phones and tablets |
 | `x86_64.apk` | x86-64 Android devices and emulators |
 
-Required permission: Record Audio. APK permissions may change with the release version.
+Permissions:
+
+- Microphone: tuner only.
+- Foreground media playback: metronome.
 
 Signing certificate SHA256: `e0f105d2ac25b48359c961224034b49d6053ba145f963d9000dedd898b989bc2`
 
